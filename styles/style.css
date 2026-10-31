@@ -137,7 +137,7 @@ button,input{font:inherit}
   /* Final mobile spacing adjustment */
 @media (max-width: 600px) {
   .hero .eyebrow {
-    margin-top: 0 !important;
+    margin-top: -20px !important;
     margin-bottom: 0 !important;
     white-space: nowrap !important;
     font-size: 13px !important;
