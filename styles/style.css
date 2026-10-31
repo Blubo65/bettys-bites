@@ -109,3 +109,15 @@ button,input{font:inherit}
     margin-bottom: 34px;
   }
 }
+/* Mobile hero text adjustments */
+@media (max-width: 600px) {
+  .eyebrow {
+    white-space: nowrap !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .hero h1 {
+    margin-bottom: 38px !important;
+  }
+}
