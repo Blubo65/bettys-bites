@@ -121,3 +121,15 @@ button,input{font:inherit}
     margin-bottom: 38px !important;
   }
 }
+/* Mobile heading spacing fixes */
+@media (max-width: 600px) {
+  .eyebrow {
+    white-space: nowrap;
+    font-size: clamp(10px, 3.2vw, 16px);
+    letter-spacing: 0.08em;
+  }
+
+  .hero h1 {
+    margin-bottom: 22px;
+  }
+}
