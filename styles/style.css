@@ -100,7 +100,7 @@ button,input{font:inherit}
 /* Small mobile layout adjustments */
 @media (max-width: 600px) {
   .eyebrow {
-    margin-top: -25px;
+    margin-top: 0;
     white-space: nowrap;
     font-size: clamp(11px, 3.2vw, 16px);
     letter-spacing: 1px;
