@@ -134,4 +134,12 @@ button,input{font:inherit}
   .hero h1 {
     margin-bottom: 22px;
   }
-}
+  /* Final mobile spacing adjustment */
+@media (max-width: 600px) {
+  .hero .eyebrow {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: nowrap !important;
+    font-size: 13px !important;
+    letter-spacing: 0.5px !important;
+  }
