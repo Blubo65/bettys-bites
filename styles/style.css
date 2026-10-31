@@ -51,3 +51,12 @@ button,input{font:inherit}
   display: none !important;
   content: none !important;
 }
+.section-kicker {
+  position: relative;
+}
+
+.section-kicker::before,
+.section-kicker::after {
+  display: none !important;
+  content: none !important;
+}
