@@ -43,3 +43,11 @@ button,input{font:inherit}
 
 /* Temporary recipe images: replace the SVG files in images/recipe-placeholders with your own photos, keeping the filenames. */
 .dialog-recipe-image{display:block;width:100%;max-height:300px;object-fit:cover;border:4px solid #e7dfce;margin:18px 0 12px}
+/* Soften decorative star colours */
+.hero::after,
+.hero-note::before,
+.section-kicker::before,
+.section-kicker::after {
+  color: var(--sage);
+  text-shadow: none;
+}
