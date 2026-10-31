@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs><pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 12H24 M12 0V24" stroke="#ffffff" stroke-opacity=".07" stroke-width="1"/></pattern></defs>
+<rect width="900" height="560" fill="#d8d0bb"/><rect x="18" y="18" width="864" height="524" rx="8" fill="#e8e0ce" stroke="#65715b" stroke-width="3" stroke-dasharray="9 8"/><rect x="18" y="18" width="864" height="524" rx="8" fill="url(#grain)"/>
+<circle cx="450" cy="205" r="108" fill="#b9c1a5" stroke="#65715b" stroke-width="3"/><circle cx="450" cy="205" r="88" fill="none" stroke="#65715b" stroke-width="2" stroke-dasharray="5 7"/>
+<text x="450" y="238" text-anchor="middle" font-size="92" fill="#45523d" font-family="serif">♨</text>
+<text x="450" y="365" text-anchor="middle" font-size="22" letter-spacing="5" fill="#68745c" font-family="sans-serif">NOSH</text>
+<text x="450" y="420" text-anchor="middle" font-size="38" fill="#30392f" font-family="Georgia,serif">Irish Cake</text>
+<rect x="298" y="458" width="304" height="42" rx="3" fill="#30392f"/><text x="450" y="485" text-anchor="middle" font-size="18" letter-spacing="3" fill="#f5efdf" font-family="sans-serif">REPLACE WITH YOUR PHOTO</text></svg>
