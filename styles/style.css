@@ -85,3 +85,15 @@ button,input{font:inherit}
   display: none !important;
   content: none !important;
 }
+/* Hide unwanted green decorative symbols only */
+.note-star,
+.category-symbol,
+.brand-mark,
+.hero-doodle,
+.intro::before,
+.intro::after,
+.section-kicker::before,
+.section-kicker::after {
+  display: none !important;
+  content: none !important;
+}
