@@ -143,3 +143,15 @@ button,input{font:inherit}
     font-size: 13px !important;
     letter-spacing: 0.5px !important;
   }
+/* Make dotted borders solid */
+.category-card {
+  border: 1px solid var(--sage) !important;
+}
+
+.section-heading h2,
+.text-link,
+.search-box,
+.filter-chip,
+.recipe-card {
+  border-style: solid !important;
+}
