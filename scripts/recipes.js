@@ -543,7 +543,7 @@ const recipes = [
     "image": "images/fresh-tomato-sauce.jpg"
   },
     {
-    "title": "Nanny Bets Chicken Pie",
+    "title": "Nanny Bet's Chicken Pie",
     "category": "Nosh",
     "description": "A comforting homemade chicken pie with creamy chicken filling and a traditional suet pastry lid.",
     "ingredients": [
@@ -567,7 +567,7 @@ const recipes = [
       "Bake at 180C for approx. 45 mins until the pastry is golden and the chicken filling is piping hot throughout."
     ],
     "symbol": "✦",
-    "note": "Nanny's recipe: quantities are not measured precisely.",
+    "note": "A family favourite: Nanny's recipe, with quantities not measured precisely.",
     "image": "images/nanny-bets-chicken-pie.jpg"
   },
 ];
