@@ -155,3 +155,10 @@ button,input{font:inherit}
 .recipe-card {
   border-style: solid !important;
 }
+@media (max-width: 600px) {
+  .section-heading h2 {
+    display: inline-block;
+    padding: 8px 10px;
+    line-height: 1.5;
+  }
+}
