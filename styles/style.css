@@ -148,8 +148,7 @@ button,input{font:inherit}
   border: 1px solid var(--sage) !important;
 }
 
-.section-heading h2,
-.text-link,
+
 .search-box,
 .filter-chip,
 .recipe-card {
