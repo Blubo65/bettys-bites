@@ -541,5 +541,33 @@ const recipes = [
     "symbol": "✎",
     "note": "",
     "image": "images/fresh-tomato-sauce.jpg"
-  }
+  },
+    {
+    "title": "Nanny Bets Chicken Pie",
+    "category": "Nosh",
+    "description": "A comforting homemade chicken pie with creamy chicken filling and a traditional suet pastry lid.",
+    "ingredients": [
+      "Chicken breast, diced and lightly fried",
+      "Chopped onion, lightly fried",
+      "2 tins Campbell's condensed chicken soup",
+      "1 small tin sweetcorn, or a handful of frozen peas and sweetcorn",
+      "2 chicken stock cubes",
+      "Self-raising flour",
+      "Vegetable suet (use twice as much flour as suet)",
+      "Hot water"
+    ],
+    "method": [
+      "Dice the chicken breast and fry lightly.",
+      "Lightly fry the chopped onion.",
+      "Mix the chicken, onion, condensed chicken soup, sweetcorn or peas and sweetcorn, and stock cubes together.",
+      "Spoon the mixture into a deep ovenproof dish.",
+      "To make the pastry lid, mix self-raising flour with vegetable suet, using twice as much flour as suet.",
+      "Add water gradually to form a soft dough.",
+      "Roll out the dough and place it over the filling to make a lid.",
+      "Bake at 180C for approx. 45 mins until the pastry is golden and the chicken filling is piping hot throughout."
+    ],
+    "symbol": "✦",
+    "note": "Nanny's recipe: quantities are not measured precisely.",
+    "image": "images/nanny-bets-chicken-pie.jpg"
+  },
 ];
