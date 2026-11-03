@@ -197,5 +197,7 @@ button,input{font:inherit}
 .site-header .brand small {
   display: block !important;
   margin-top: 0 !important;
-  position: static !important;
+  position: relative !important;
+  top: 15px !important;
+  transform: none !important;
 }
