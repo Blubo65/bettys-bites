@@ -175,13 +175,13 @@ button,input{font:inherit}
 .hero h1 {
   margin-bottom: 55px !important;
 }
-/* Keep the small header tagline close to the logo */
+/* Set a little breathing room between the header logo and tagline */
 .site-header .brand strong {
   margin-bottom: 0 !important;
 }
 
 .site-header .brand small {
-  margin-top: 5px !important;
+  margin-top: 12px !important;
   position: static !important;
   top: auto !important;
   transform: none !important;
