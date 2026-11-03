@@ -553,7 +553,7 @@ const recipes = [
       "1 small tin sweetcorn, or a handful of frozen peas and sweetcorn",
       "2 chicken stock cubes",
       "Self-raising flour",
-      "Vegetable suet (use twice as much flour as suet)",
+      "Vegetable suet",
       "Hot water"
     ],
     "method": [
