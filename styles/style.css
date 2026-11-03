@@ -163,3 +163,9 @@ button,input{font:inherit}
     outline: none !important;
   }
 }
+/* More space below the main title on desktop */
+@media (min-width: 601px) {
+  .hero h1 {
+    margin-bottom: 20px;
+  }
+}
