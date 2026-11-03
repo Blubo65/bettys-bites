@@ -175,29 +175,14 @@ button,input{font:inherit}
 .hero h1 {
   margin-bottom: 55px !important;
 }
-.brand small {
-  margin-top: 10px !important;
-}
-.brand small {
-  position: relative !important;
-  top: 8px !important;
-}
-
-.site-header .brand > span {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-}
-
+/* Keep the small header tagline close to the logo */
 .site-header .brand strong {
-  display: block !important;
-  margin-bottom: 12px !important;
+  margin-bottom: 0 !important;
 }
 
 .site-header .brand small {
-  display: block !important;
-  margin-top: 0 !important;
-  position: relative !important;
-  top: 15px !important;
+  margin-top: 5px !important;
+  position: static !important;
+  top: auto !important;
   transform: none !important;
 }
