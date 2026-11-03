@@ -176,3 +176,7 @@ button,input{font:inherit}
 .brand small {
   margin-top: 10px !important;
 }
+.brand small {
+  position: relative !important;
+  top: 8px !important;
+}
