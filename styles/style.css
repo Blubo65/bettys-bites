@@ -186,10 +186,16 @@ button,input{font:inherit}
 .site-header .brand > span {
   display: flex !important;
   flex-direction: column !important;
-  gap: 8px !important;
+  align-items: flex-start !important;
+}
+
+.site-header .brand strong {
+  display: block !important;
+  margin-bottom: 12px !important;
 }
 
 .site-header .brand small {
+  display: block !important;
   margin-top: 0 !important;
   position: static !important;
 }
