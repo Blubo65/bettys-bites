@@ -163,9 +163,9 @@ button,input{font:inherit}
     outline: none !important;
   }
 }
-/* More space below the main title on desktop */
+/* More space below Betty's Bites title on desktop and iPad */
 @media (min-width: 601px) {
   .hero h1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px !important;
   }
 }
