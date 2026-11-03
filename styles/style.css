@@ -180,3 +180,16 @@ button,input{font:inherit}
   position: relative !important;
   top: 8px !important;
 }
+}
+}
+
+.site-header .brand > span {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.site-header .brand small {
+  margin-top: 0 !important;
+  position: static !important;
+}
