@@ -547,8 +547,8 @@ const recipes = [
     "category": "Nosh",
     "description": "A comforting homemade chicken pie with creamy chicken filling and a traditional suet pastry lid.",
     "ingredients": [
-      "Chicken breast, diced and lightly fried",
-      "Chopped onion, lightly fried",
+      "Chicken breast",
+      "1 onion",
       "2 tins Campbell's condensed chicken soup",
       "1 small tin sweetcorn, or a handful of frozen peas and sweetcorn",
       "2 chicken stock cubes",
