@@ -543,7 +543,7 @@ const recipes = [
     "image": "images/fresh-tomato-sauce.jpg"
   },
     {
-    "title": "Nanny Bet's Chicken Pie",
+    "title": "Nanny Bett's Chicken Pie",
     "category": "Nosh",
     "description": "A comforting homemade chicken pie with creamy chicken filling and a traditional suet pastry lid.",
     "ingredients": [
