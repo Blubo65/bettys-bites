@@ -466,8 +466,16 @@ const recipes = [
     "category": "Pudding",
     "description": "Date-rich sponge with a buttery toffee sauce.",
     "ingredients": [
-      "Pudding: ½ pint boiling water, 5 oz chopped dates, 1 tsp bicarbonate of soda, 60 g sugar, 60 g butter, 2 eggs, 150 g self-raising flour",
-      "Sauce: 7 oz butter, 14 oz brown sugar, 250 ml cream"
+      "Pudding: ½ pint boiling water", 
+      "5 oz chopped dates", 
+      "1 tsp bicarbonate of soda", 
+      "60g sugar", 
+      60g butter", 
+      "2 eggs", 
+      "150 g self-raising flour",
+      "Sauce: 7 oz butter", 
+      "14 oz brown sugar", 
+      "250 ml cream"
     ],
     "method": [
       "Pour boiling water over the dates and bicarbonate of soda. Leave for 10 minutes, then blitz to a paste and cool.",
