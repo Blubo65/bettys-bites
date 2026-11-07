@@ -470,7 +470,7 @@ const recipes = [
       "5 oz chopped dates", 
       "1 tsp bicarbonate of soda", 
       "60g sugar", 
-      60g butter", 
+      "60g butter", 
       "2 eggs", 
       "150 g self-raising flour",
       "Sauce: 7 oz butter", 
