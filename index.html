@@ -101,6 +101,14 @@
   </main>
 
   <footer class="site-footer"><a class="footer-brand" href="#">Betty's Bites</a><span>Simple recipes. A treasured story.</span><a href="#top">Back to top ↑</a></footer>
+  <script>
+    // Keep the homepage at its actual top on initial navigation, without
+    // overriding intentional section links.
+    if (!location.hash && 'scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+      window.addEventListener('load', () => window.scrollTo({top: 0, left: 0, behavior: 'instant'}), {once:true});
+    }
+  </script>
   <script src="scripts/recipes.js"></script>
   <script src="scripts/site.js"></script>
 </body>
