@@ -201,3 +201,8 @@ button,input{font:inherit}
   .hero .hero-logo { margin-bottom:0; }
   .hero h1 { margin-bottom:8px !important; }
 }
+
+/* Keep the mobile site header visible if the browser shifts the page. */
+@media (max-width:600px) {
+  .site-header { position:sticky; top:0; z-index:100; }
+}
