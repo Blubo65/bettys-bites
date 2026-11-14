@@ -206,3 +206,9 @@ button,input{font:inherit}
 @media (max-width:600px) {
   .site-header { position:sticky; top:0; z-index:100; }
 }
+
+/* Give the mobile homepage heading and introduction a little breathing room. */
+@media (max-width:600px) {
+  .hero h1 { margin-bottom:24px !important; }
+  .hero .eyebrow { margin-bottom:12px !important; }
+}
