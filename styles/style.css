@@ -212,3 +212,8 @@ button,input{font:inherit}
   .hero h1 { margin-bottom:24px !important; }
   .hero .eyebrow { margin-bottom:12px !important; }
 }
+
+/* Lower only the large homepage SVG on phones. */
+@media (max-width:600px) {
+  .hero h1 { margin-top:22px !important; }
+}
