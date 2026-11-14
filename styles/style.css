@@ -199,5 +199,5 @@ button,input{font:inherit}
 /* Mobile: close the oversized gap below the vector homepage logo. */
 @media (max-width:600px) {
   .hero .hero-logo { margin-bottom:0; }
-  .hero h1 { margin-bottom:-48px !important; }
+  .hero h1 { margin-bottom:8px !important; }
 }
