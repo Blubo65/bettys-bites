@@ -228,8 +228,8 @@ button,input{font:inherit}
 @media(max-width:600px){ .svg-heading { max-height:55px; } .svg-category { height:25px; } }
 
 /* Halve the space above the homepage tagline without altering gaps below it. */
-.hero { padding-top:clamp(29px,4.5vw,57.5px); }
-@media(max-width:600px) { .hero { padding-top:32.5px; } }
+.hero { padding-top:clamp(14.5px,2.25vw,28.75px); }
+@media(max-width:600px) { .hero { padding-top:16.25px; } }
 
 /* Slightly smaller introduction to avoid isolated words at line ends. */
 .hero-intro { font-size:18px; text-wrap:balance; }
