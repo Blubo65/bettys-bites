@@ -1,4 +1,3 @@
-@font-face{font-family:'Angeline Vintage';src:url('../fonts/Angeline-Vintage-Demo.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Dusty Erasers';src:url('../fonts/DustyErasers.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
 
@@ -217,3 +216,13 @@ button,input{font:inherit}
 @media (max-width:600px) {
   .hero h1 { margin-top:22px !important; }
 }
+
+/* Vector lettering: keep the original heading layout and preserve responsive widths. */
+.svg-heading { display:block; width:auto; max-width:100%; height:1.2em; object-fit:contain; object-position:left center; }
+.intro .svg-heading { margin-inline:auto; }
+.category-svg-label { display:block; width:100%; }
+.svg-category { display:block; max-width:100%; width:auto; height:30px; object-fit:contain; object-position:left center; }
+.svg-recipe-card-title { display:block; max-width:100%; width:auto; height:31px; object-fit:contain; object-position:left center; filter:brightness(0) saturate(100%) opacity(.85); }
+.svg-dialog-title { display:block; max-width:100%; width:auto; height:1.2em; object-fit:contain; object-position:left center; }
+.recipe-dialog .svg-dialog-title { filter:brightness(0) saturate(100%) opacity(.85); }
+@media(max-width:600px){ .svg-heading { max-height:55px; } .svg-category { height:25px; } }
