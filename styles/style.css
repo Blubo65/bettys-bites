@@ -246,3 +246,11 @@ button,input{font:inherit}
   .hero { padding-top:42px; }
   .hero .eyebrow { margin-top:0 !important; }
 }
+
+/* Reduce empty space beneath Find a recipe by 75% on desktop, iPad and landscape. */
+@media (min-width:601px) {
+  .hero { min-height:0; padding-bottom:clamp(14.5px,2.25vw,28.75px); }
+}
+@media (max-width:600px) and (orientation:landscape) {
+  .hero { min-height:0; padding-bottom:18.75px; }
+}
