@@ -254,3 +254,9 @@ button,input{font:inherit}
 @media (max-width:600px) and (orientation:landscape) {
   .hero { min-height:0; padding-bottom:18.75px; }
 }
+
+/* Add a little breathing room below the large Betty's Bites logo. */
+.hero h1 { margin-bottom:14px !important; }
+@media (max-width:600px) and (orientation:portrait) {
+  .hero h1 { margin-bottom:30px !important; }
+}
