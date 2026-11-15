@@ -234,3 +234,6 @@ button,input{font:inherit}
 /* Slightly smaller introduction to avoid isolated words at line ends. */
 .hero-intro { font-size:18px; text-wrap:balance; }
 @media(max-width:600px) { .hero-intro { font-size:17px; text-wrap:balance; } }
+
+/* Keep the first intro sentence on one line where there is room. */
+@media(min-width:850px){.intro-first-sentence{white-space:nowrap;}}
