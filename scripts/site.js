@@ -4,7 +4,7 @@ const empty = document.getElementById('empty-state');
 let activeCategory = 'All';
 function photoPath(recipe) { return 'images/' + recipe.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.jpg'; }
 function escapeHtml(value) { return String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-function svgTitlePath(title) { return 'images/' + title.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.svg?v=20261115c'; }
+function svgTitlePath(title) { return 'images/' + title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.svg?v=20261115c'; }
 function svgRecipeTitle(title, className) { return '<img class="' + className + '" src="' + escapeHtml(svgTitlePath(title)) + '" alt="' + escapeHtml(title) + '">'; }
 function renderRecipes() {
   const term = (search.value || '').trim().toLowerCase();
